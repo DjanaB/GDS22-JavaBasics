@@ -32,5 +32,19 @@ public class ArithmetischeOperationen {
         // System.out.println("Multiplikation: " + mal);
         //System.out.println("Division: " + durch);
 
+        // a++ bedeutet a = a + 1
+        System.out.println("a++");
+        // ich erwartePre mir 3
+        System.out.println(a++);
+        System.out.println("a = " + a); //ich erwarte mir 4;
+
+        // ++b
+        System.out.println("++b");
+        System.out.println(++b); // ich erwarte mir 3
+        System.out.println("b = " + b); //ich erwarte mir 3;
+
+
+
+
     }
 }
